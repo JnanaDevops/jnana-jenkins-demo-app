@@ -18,7 +18,7 @@ pipeline {
         stage('Create-Workspace'){
             steps {
                 echo 'creating workspace'
-                sh 'ls -lrth /var/lib/jenkins'
+                //sh 'ls -lrth /var/lib/jenkins'
             }
         }
         stage('clone-repo'){
